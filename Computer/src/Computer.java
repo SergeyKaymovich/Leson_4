@@ -7,6 +7,8 @@ public class Computer {
     public  Computer(int price,String model){
         this.price = price;
         this.model = model;
+        this.ram = new RAM();
+        this.hdd  = new HDD();
     }
 
     public Computer(int price, String model, RAM ram, HDD hdd) {
