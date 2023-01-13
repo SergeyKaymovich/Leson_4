@@ -4,6 +4,9 @@ public class HDD {
     public String type;
 
     public  HDD(){
+        name = "hdd";
+        memory = 512;
+        type = "yes";
     }
     public HDD(String name, int memory, String type) {
         this.name = name;

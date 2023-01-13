@@ -3,6 +3,8 @@ public class RAM {
     public  int memory;
 
     public RAM(){
+        name = "ram";
+        memory = 512;
     }
 
     public RAM(String name, int memory) {
